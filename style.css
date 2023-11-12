@@ -1,3 +1,4 @@
+/* Reset box-sizing for all elements */
 * {
   box-sizing: border-box;
 }
@@ -8,7 +9,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #6930C3;
+  background-color: #28a745; /* Green color */
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -19,9 +20,8 @@ header {
 nav {
   float: left;
   width: 15%;
-  /*height: 300px;  only for demonstration, should be removed */
-  background: #FFFFFF;
- padding: 20px;
+  background: #f8f9fa; /* Light gray color */
+  padding: 20px;
 }
 
 /* Style the list inside the menu */
@@ -34,8 +34,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #5390D9;
-  /* height: 300px;  only for demonstration, should be removed */
+  background-color: #007bff; /* Blue color */
 }
 
 /* Clear floats after the columns */
@@ -47,7 +46,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #5E60CE;
+  background-color: #6c757d; /* Gray color */
   padding: 10px;
   text-align: center;
   color: white;
@@ -60,16 +59,17 @@ footer {
     height: auto;
   }
 }
+
+/* Reset box-sizing again */
 * {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create two equal columns that float next to each other */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-
 }
 
 /* Clear floats after the columns */
