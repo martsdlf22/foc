@@ -8,7 +8,7 @@ body {
 
 /* Style the header */
 header {
-  background: linear-gradient(to right, #ff9eb5, #fad0c4); /* Ombre Pink */
+  background: linear-gradient(to right, #ff9eb5, #fad0c4, #a18cd1); /* Pink, Light Pink, Purple */
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -19,7 +19,7 @@ header {
 nav {
   float: left;
   width: 15%;
-  background: linear-gradient(to bottom, #f8f9fa, #c3e6cb); /* Light Green */
+  background: linear-gradient(to bottom, #add8e6, #98fb98, #ffd700); /* Light Blue, Light Green, Gold */
   padding: 20px;
 }
 
@@ -33,7 +33,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background: linear-gradient(to right, #ff9eb5, #fad0c4); /* Ombre Pink */
+  background: linear-gradient(to right, #ff6347, #ffd700, #66cdaa); /* Tomato, Gold, Medium Aquamarine */
 }
 
 /* Clear floats after the columns */
@@ -45,7 +45,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background: linear-gradient(to bottom, #c3e6cb, #6c757d); /* Ombre Pink to Gray */
+  background: linear-gradient(to bottom, #66cdaa, #ff69b4, #9370db); /* Medium Aquamarine, Hot Pink, Medium Purple */
   padding: 10px;
   text-align: center;
   color: white;
