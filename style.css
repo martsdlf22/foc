@@ -9,18 +9,18 @@ body {
 
 /* Style the header */
 header {
-  background-color: #28a745; /* Green color */
+  background: linear-gradient(to right, #ff9eb5, #fad0c4); /* Ombre Pink */
   padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
+/* Create two columns/boxes that float next to each other */
 nav {
   float: left;
   width: 15%;
-  background: #f8f9fa; /* Light gray color */
+  background: linear-gradient(to bottom, #f8f9fa, #c3e6cb); /* Light Green */
   padding: 20px;
 }
 
@@ -34,7 +34,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #007bff; /* Blue color */
+  background: linear-gradient(to right, #ff9eb5, #fad0c4); /* Ombre Pink */
 }
 
 /* Clear floats after the columns */
@@ -46,7 +46,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #6c757d; /* Gray color */
+  background: linear-gradient(to bottom, #c3e6cb, #6c757d); /* Ombre Pink to Gray */
   padding: 10px;
   text-align: center;
   color: white;
