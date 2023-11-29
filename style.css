@@ -77,3 +77,30 @@ footer {
   display: table;
   clear: both;
 }
+/* Add this to your style.css file */
+
+body {
+  font-family: Script, Helvetica, serif;
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide scroll bars caused by video overflow */
+}
+
+/* Your existing styles... */
+
+/* Video styling */
+#smokyVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place the video behind other elements */
+}
+
+/* Responsive layout adjustments as needed */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
